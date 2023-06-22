@@ -8,7 +8,7 @@
     "start": "node --watch server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Rap, et al.",
+  "author": "@RapPayne, @OlaEkdahl, et. al.",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
