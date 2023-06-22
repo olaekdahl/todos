@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todos</title>
+  <script src="index.js" defer type="module"></script>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <h1>Stuff I gotta do today</h1>
+  <section id="addTodoSection">
+    <form>
+      <div class="formField">
+        <label for="description">What do you need to do?</label>
+        <input name="description" autocomplete="off" />
+      </div>
+      <div class="formField">
+        <label for="priority">Priority</label>
+        <input type="number" step="1" min="1" max="5" name="priority" />
+      </div>
+      <div class="formField">
+        <button type="submit">Create to do</button>
+      </div>
+    </form>
+  </section>
+  <ul>
+  </ul>
+</body>
+
+</html>
