@@ -1,0 +1,50 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  --main-dark: black;
+  --main-light: white;
+  --dark2: blue;
+  --light2: beige;
+  --postit-yellow: #ff9;
+}
+
+button {
+  padding: 10px;
+  border: 1px solid var(--dark2);
+  color: var(--dark2);
+  background-color: var(--light2);
+  border-radius: 5px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.todo {
+  background-color: var(--postit-yellow);
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid var(--main-dark);
+}
+
+.todo.true {
+  opacity: 0.25;
+  text-decoration: line-through;
+}
+
+#addTodoSection {
+  border: 2px solid var(--main-dark);
+  padding: 15px;
+
+  & .formField {
+    margin: 10px 0;
+
+    & input {
+      width: 95%;
+    }
+  }
+
+}

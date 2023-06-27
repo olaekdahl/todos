@@ -37,7 +37,6 @@ node_modules
 # Optional REPL history
 .node_repl_history
 
-
 ### Bower ###
 bower_components
 .bower-cache
@@ -82,7 +81,6 @@ Temporary Items
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
 
-
 ### Windows ###
 # Windows image file caches
 Thumbs.db
@@ -114,11 +112,6 @@ $RECYCLE.BIN/
 ### Sass ###
 .sass-cache/
 *.css.map
-
-
-### Less ###
-*.css
-
 
 ### grunt ###
 # Grunt usually compiles files inside this directory
