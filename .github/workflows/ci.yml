@@ -22,6 +22,7 @@ jobs:
           path: ./
           base: ${{ github.event.repository.default_branch }}
           head: HEAD
+          extra_args: --debug --only-verified
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
