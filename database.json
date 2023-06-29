@@ -30,10 +30,12 @@
       "priority": 2,
       "complete": false
     },
-    { "id": 8, "description": "Drink water", "complete": false, "priority": 2 },
-    { "description": "test", "priority": "3", "id": 15, "complete": true },
-    { "description": "test", "priority": "4", "id": 12, "complete": true },
-    { "description": "test", "priority": "3", "id": 13, "complete": true },
+    {
+      "id": 8,
+      "description": "Drink water",
+      "complete": false,
+      "priority": 2
+    },
     {
       "description": "Tell them that Ola and Rap are the best instructors EVER",
       "priority": "1",
@@ -46,7 +48,6 @@
       "id": 11,
       "complete": false
     },
-    { "description": "test", "priority": "3", "id": 14, "complete": true },
     {
       "id": 1,
       "description": "Have my daily mental breakdown",
@@ -65,6 +66,42 @@
       "description": "Ask chatGPT to write a love poem.",
       "priority": 2,
       "complete": true
+    },
+    {
+      "id": 8,
+      "description": "Drink water",
+      "complete": false,
+      "priority": 2
+    },
+    {
+      "id": 2,
+      "description": "Turn the coffee maker on",
+      "complete": false,
+      "priority": 2
+    },
+    {
+      "id": 7,
+      "description": "Question what's next in life",
+      "complete": false,
+      "priority": 2
+    },
+    {
+      "description": "Go to the bank.",
+      "priority": "3",
+      "id": 12,
+      "complete": false
+    },
+    {
+      "description": "Eat lunch",
+      "priority": 1,
+      "id": 15,
+      "complete": false
+    },
+    {
+      "description": "Go to lunch",
+      "priority": 1,
+      "id": 16,
+      "complete": false
     }
   ]
 }
