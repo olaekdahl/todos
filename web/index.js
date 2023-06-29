@@ -44,6 +44,9 @@ export function renderTodo(todo) {
 }
 
 export async function getData() {
+  // Dummy AWS API key for testing TruffleHog
+  const AWS_API_KEY = "AKIAI4GK";
+  console.log(`Dummy AWS API key for testing TruffleHog: ${AWS_API_KEY}`);
   const todos = await fetch("/api/todos")
     .then(
       res => res.json(),
