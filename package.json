@@ -2,15 +2,18 @@
   "name": "planner",
   "version": "0.0.1",
   "description": "Keeping track of your tasks.",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node --watch server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll --no-cache"
   },
   "author": "@RapPayne, @OlaEkdahl, et. al.",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0"
   }
 }
