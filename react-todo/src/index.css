@@ -1,0 +1,16 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  --main-dark: black;
+  --main-light: white;
+  --dark2: blue;
+  --light2: beige;
+  --postit-yellow: #ff9;
+}
+
+button {
+  padding: 10px;
+  border: 1px solid var(--dark2);
+  color: var(--dark2);
+  background-color: var(--light2);
+  border-radius: 5px;
+}
