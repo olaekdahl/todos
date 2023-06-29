@@ -1,3 +1,5 @@
+[![CI Build](https://github.com/olaekdahl/todos/actions/workflows/ci.yml/badge.svg)](https://github.com/olaekdahl/todos/actions/workflows/ci.yml)
+
 # The todo app
 
 ## Server
