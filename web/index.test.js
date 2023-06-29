@@ -72,7 +72,7 @@ describe('Unit tests for the code', () => {
     ul.appendChild(li);
     
     // Uncomment the following line to make the test pass. Hacky, but it works!
-    // drawTodos(todos);
+    drawTodos(todos);
     
     await toggleCompletion(todo);
 
