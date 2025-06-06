@@ -9,11 +9,11 @@ export const CreateTodo = ({ sendNewTodo }) => {
       <form>
         <div className="formField">
           <label htmlFor="description">What do you need to do?</label>
-          <input value={description} onChange={e => setDescription(e.target.value)} name="description" autoComplete="off" style={styles.input} />
+          <input id="description" value={description} onChange={e => setDescription(e.target.value)} name="description" autoComplete="off" style={styles.input} />
         </div>
         <div className="formField">
           <label htmlFor="priority">Priority</label>
-          <input value={priority}
+          <input id="priority" value={priority}
             onChange={e => setPriority(e.target.value)}
             type="number" step="1" min="1" max="5" name="priority" style={styles.input} />
         </div>
