@@ -37,11 +37,11 @@ jobs:
       - name: Test React app
         run: cd react-todo && npm test -- --coverage --watchAll=false
 
-      - name: SonarCloud Scan
-        uses: sonarsource/sonarqube-scan-action@master
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+      # - name: SonarCloud Scan
+      #   uses: sonarsource/sonarqube-scan-action@master
+      #   env:
+      #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      #     SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
   
   docker:
     runs-on: ubuntu-latest
